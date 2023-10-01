@@ -1,174 +1,129 @@
+
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
     <title>Prajwal H C</title>
-</head>
+  </head>
+  <body>
+    <!-- START NAV -->
 
-<body>
-    <header id="main-header">
-        <nav id="navbar">
-            <h1>Prajwal H C</h1>
-            <ul>
-                <li class="nav-link"><a href="#introduction">Introduction</a></li>
-                <li class="nav-link"><a href="data\2023-resume.pdf">Resume</a></li>
-                <li class="nav-link"><a href="mailto:prajwalhc1806@gmail.com">Contact</a></li>
-                <li class="nav-link"><a href="#projects">Projects</a></li>
-                <li class="nav-link"><a href="#skills">Skills</a></li>
-                <li class="nav-link"><a href="#work-experience">Work Experience</a></li>
-                <li class="nav-link"><a href="#education">Education</a></li>
-                <li class="nav-link"><a href="#achievements">Achievements</a></li>
-                <li class="nav-link"><a href="#certifications">Certifications</a></li>
-                <li class="nav-link"><a href="#others">Others</a></li>
-                <li class="nav-link"><a href="#join-my-network">Join My Network</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="data\2023-resume.pdf">Resume</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- END NAV -->
 
-    <main id="main-doc">
-        <section class="main-section" id="introduction">
-            <header>Introduction</header>
-            <article class="main-article">
-                <p>Process-driven professional with a passion for sports and exploring Web Development and Python
-                    programming. A fast learner and dedicated individual, I am driven to continuously enhance my skills. Seeking a
-                    challenging career that allows me to utilize my expertise and foster professional growth. </p>
-            </article>
-        </section>
 
-        <section class="main-section" id="projects">
-            <header>Projects</header>
-            <article class="main-article">
-                <div class="project-01">
-                    <h3 class="project-title">Sign Language Recognition using Machine Learning</h3>
-                    <p>This project aims to bridge the communication gap between the deaf and hearing-impaired community and the general population. our project
-                        focused and developed an intelligent system that recognize and interpret sign language gestures,converts them to text.
-                    </p>
-                    <a href="https://github.com/prajwalhc-18/sign-recogntion-Interface-using-ml">Project-1 Link</a>
-                </div>
-                <br>
-                <div class="project-02">
-                    <h3 class="project-title">Automated Attendance system using Face Recognition</h3>
-                    <p>It is a modern and digital type of attendance system project in which we used face recognition ML
-                        model to identify student faces and automatically filling attendance in the form of Excel Sheet
-                        without human interference.
-                    </p>
-                    <a href="https://github.com/prajwalhc-18/Automated_attendance_system_using_Face_recognition">Project-2 Link</a>
-                </div>
-            </article>
-        </section>
+    <!-- START WELCOME SECTION -->
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey I'm Prajwal H C</h1>
+      <p>a front-end developer</p>
+    </section>
+    <!-- END WELCOME SECTION -->
 
-        <section class="main-section" id="skills">
-            <header>Skills</header>
-            <article class="main-article">
-                <div class="Skills">
-                    <ul>
-                        <li><b> Programming Languages: </b>Python, Java, Javascript, HTML and CSS</li>
-                        <li><b> Tools & Frameworks: </b>Pycharm, VS Code, Jupyter Notebook and Bootstrap</li>
-                        <li><b> Database: </b>MySQL</li>
-                    </ul>
-                </div>
-            </article>
-        </section>
 
-        <section class="main-section" id="work-experience">
-            <header>Work Experience</header>
-            <article class="main-article">
-                <div class="Role">
-                    <h3>Student Developer at Smart India Hackathon (March-August 2022)</h3>
-                    <p>Over a dedicated period of 5-6 months, I delved into the fundamentals of front-end development,
-                    acquiring proficiency in essential tools such as HTML5, CSS, and Python. During this time, I had the
-                    privilege of working collaboratively within a team on an ambitious project –
-                    Automated Attendance System using Machine Learning.</p>
-                </div>
+    <!-- START PROJECTS SECTION -->
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
 
-                <div class="Role">
-                    <h3>Intern at Inventeron Technologies Bengaluru (August-September 2022)</h3>
-                    <p>Acquired fundamental skills in Python, Pandas, and NumPy led to developing a Sales Prediction
-                        model for ML applications. Instrumental in diverse project successes, adaptability, and teamwork
-                        were key. I contributed to their practical application, fostering a collaborative team
-                        environment. In a dynamic industry, my commitment to technical excellence and teamwork stands
-                        out.</p>
-                </div>
-            </article>
-        </section>
+      <div class="projects-grid">
+        <a
+          href="https://github.com/prajwalhc-18/sign-recognition-Interface-using-ml"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="data\slr.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Sign Language Recognition using Machine Learning
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
 
-        <section class="main-section" id="achievements">
-            <header>Achievements</header>
-            <article class="main-article">
-                <div class="achievements">
-                    <ul>
-                        <li>Smart India Hackathon Winner 2022</li>
-                    </ul>
-                </div>
-            </article>
-        </section>
+        <a
+          href="hhttps://github.com/prajwalhc-18/Automated_attendance_system_using_Face_recognition"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="data\Attendance system.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Automated Attendance System using Face Recognition
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+      </div>
+    </section>
+    <!-- END PROJECTS SECTION -->
 
-        <section class="main-section" id="education">
-            <header>Education</header>
-            <article class="main-article">
-                <div class="degree">
-                    <p><b>GM Institute of Technology, Davanagere, Karnataka 2023</b></p>
-                    <p>Bachelor of Engineering in Electronics and Communications</p>
-                    <p>CGPA = 6.8</p>
-                </div>
-                <div class="degree">
-                    <p><b>DVS PU(I) College Shivamogga, Karnataka 2019</b></p>
-                    <p>XII (2nd PUC)</p>
-                    <p>Percentage = 65.33</p>
-                </div>
-                <div class="degree">
-                    <p><b>Dr. B R Ambedkar High School Hosakoppa, Shivamogga</b></p>
-                    <p>X (SSLC) 2017</p>
-                    <p>Percentage = 83.04</p>
-                </div>
-            </article>
-        </section>
 
-        <section class="main-section" id="others">
-            <header>Others</header>
-            <article class="main-article">
-                <div class="languages">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>Kannada</li>
-                        <li>English</li>
-                        <li>Hindi</li>
-                    </ul>
-                </div>
+    <!-- START CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+      </div>
+      <div class="contact-links">
+        <a
+          id="profile-link"
+          href="https://github.com/prajwalhc-18"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/prajwal-h-c-69328518b/"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fas fa-at"></i> LinkedIn
+        </a>
 
-                <div class="hobbies">
-                    <h3>Hobbies</h3>
-                    <ul>
-                        <li>Tech Enthuciacist</li>
-                        <li>Cricket</li>
-                        <li>Reading</li>
-                        <li>Movie Watching</li>
-                    </ul>
-                </div>
-            </article>
-        </section>
+        <a href="https://www.hackerrank.com/hcprajwal108?hr_r=1" class="btn contact-details" target="_blank">
+          <i class="fas fa-at"></i> HackerRank
+        </a>
 
-        <section class="main-section" id="join-my-network">
-            <header class="Network">Join My Network</header>
-            <article class="main-article">
-                <div class="social-media">
-                    <a href="https://www.linkedin.com/in/prajwal-h-c-69328518b/" target="_blank">
-                        <img src="data\linkedin (1).png" alt="LinkedIn Logo">
-                    </a>
-                    <a href="https://github.com/prajwalhc-18" target="_blank">
-                        <img src="data/github.png" alt="Github Logo">
-                    </a>
-                    <a href="https://www.hackerrank.com/hcprajwal108?hr_r=1" target="_blank">
-                        <img src="data/hackerrank.png" alt="HackerRank">
-                    </a>
-                </div>
-            </article>
-        </section>
+        <a href="mailto:prajwalhc1806@gmail.com" class="btn contact-details">
+            <i class="fas fa-at"></i> Send a mail</a
+        >
 
-    </main>
-</body>
+      </div>
+    </section>
 
+    <!-- END CONTACT SECTION -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 </html>
